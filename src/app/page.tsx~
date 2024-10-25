@@ -1,0 +1,3 @@
+import CatalogPage from './(root)/catalog';
+
+export default CatalogPage;

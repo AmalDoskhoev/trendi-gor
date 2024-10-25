@@ -1,0 +1,46 @@
+import React from 'react';
+
+export function BottomNavigation()
+{
+	return (
+		<nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 md:hidden flex justify-between p-2">
+			<Link
+				href="/catalog"
+				className="flex flex-col items-center"
+			>
+				<Home className="h-6 w-6"/>
+				<span className="text-xs">Каталог</span>
+			</Link>
+			{isStore && (
+				<Link
+					href="/add-item"
+					className="flex flex-col items-center"
+				>
+					<PlusSquare className="h-6 w-6"/>
+					<span className="text-xs">Добавить</span>
+				</Link>
+			)}
+			<Link
+				href="/favorites"
+				className="flex flex-col items-center"
+			>
+				<Heart className="h-6 w-6"/>
+				<span className="text-xs">Избранное</span>
+			</Link>
+			<Link
+				href="/cart"
+				className="flex flex-col items-center"
+			>
+				<ShoppingCart className="h-6 w-6"/>
+				<span className="text-xs">Корзина</span>
+			</Link>
+			<Link
+				href="/profile"
+				className="flex flex-col items-center"
+			>
+				<User className="h-6 w-6"/>
+				<span className="text-xs">Профиль</span>
+			</Link>
+		</nav>
+	);
+}
