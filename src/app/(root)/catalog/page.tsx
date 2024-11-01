@@ -38,36 +38,36 @@ export default function Catalog()
 			id: 1,
 			name: "Классическая белая футболка",
 			price: 1999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "T-Shirts"
 		},
 		{
 			id: 2,
 			name: "Джинсы из денима",
 			price: 4999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "Jeans"
 		},
 		{
 			id: 3,
 			name: "Кожаная куртка",
 			price: 9999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "Jackets"
 		},
 		{
 			id: 4,
 			name: "Летнее платье",
 			price: 3999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "Dresses"
 		},
-		{id: 5, name: "Кроссовки", price: 5999.99, image: "/placeholder.svg?height=200&width=200", category: "Shoes"},
+		{id: 5, name: "Кроссовки", price: 5999.99, image: "https://placehold.co/200x200", category: "Shoes"},
 		{
 			id: 6,
 			name: "Шерстяной свитер",
 			price: 6999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "T-Shirts"
 		},
 	]
@@ -97,7 +97,7 @@ export default function Catalog()
 							</div>
 							<div className="aspect-video relative overflow-hidden rounded-lg">
 								<img
-									src="/placeholder.svg?height=400&width=600"
+									src="https://placehold.co/400x600"
 									alt="Collection"
 									className="object-cover w-full h-full"
 								/>

@@ -30,15 +30,15 @@ export default function StoreProfile()
 			twitter: "https://twitter.com/fashionhub",
 		},
 		featuredProducts: [
-			{id: 1, name: "Платье «Летний бриз»", price: 4999.99, image: "/placeholder.svg?height=200&width=200"},
+			{id: 1, name: "Платье «Летний бриз»", price: 4999.99, image: "https://placehold.co/200x200"},
 			{
 				id: 2,
 				name: "Классическая джинсовая куртка",
 				price: 7999.99,
-				image: "/placeholder.svg?height=200&width=200"
+				image: "https://placehold.co/200x200"
 			},
-			{id: 3, name: "Джинсы Comfort Fit", price: 499.99, image: "/placeholder.svg?height=200&width=200"},
-			{id: 4, name: "Элегантное вечернее платье", price: 2129.99, image: "/placeholder.svg?height=200&width=200"},
+			{id: 3, name: "Джинсы Comfort Fit", price: 499.99, image: "https://placehold.co/200x200"},
+			{id: 4, name: "Элегантное вечернее платье", price: 2129.99, image: "https://placehold.co/200x200"},
 		],
 	}
 
@@ -157,11 +157,9 @@ export default function StoreProfile()
 					{storeInfo.featuredProducts.map((product) => (
 						<Card key={product.id}>
 							<CardHeader>
-								<Image
+								<img
 									src={product.image}
 									alt={product.name}
-									width={200}
-									height={200}
 									className="w-full h-48 object-cover rounded-t-lg"
 								/>
 							</CardHeader>

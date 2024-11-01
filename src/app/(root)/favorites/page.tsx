@@ -5,15 +5,15 @@ import Image from "next/image";
 export default function Favorites()
 {
 	const favorites = [
-		{id: 1, name: "Платье «Летний бриз»", price: 4999.99, image: "/placeholder.svg?height=200&width=200"},
+		{id: 1, name: "Платье «Летний бриз»", price: 4999.99, image: "https://placehold.co/200x200"},
 		{
 			id: 2,
 			name: "Классическая джинсовая куртка",
 			price: 7999.99,
-			image: "/placeholder.svg?height=200&width=200"
+			image: "https://placehold.co/200x200"
 		},
-		{id: 3, name: "Джинсы Comfort Fit", price: 499.99, image: "/placeholder.svg?height=200&width=200"},
-		{id: 4, name: "Элегантное вечернее платье", price: 2129.99, image: "/placeholder.svg?height=200&width=200"},
+		{id: 3, name: "Джинсы Comfort Fit", price: 499.99, image: "https://placehold.co/200x200"},
+		{id: 4, name: "Элегантное вечернее платье", price: 2129.99, image: "https://placehold.co/200x200"},
 	]
 
 	return (

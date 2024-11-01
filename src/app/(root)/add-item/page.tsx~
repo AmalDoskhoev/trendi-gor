@@ -130,7 +130,7 @@ export default function AddClothingItem()
 						name="description"
 						render={({field}) => (
 							<FormItem>
-								<FormLabel>Description</FormLabel>
+								<FormLabel>Описание</FormLabel>
 								<FormControl>
 									<Textarea
 										placeholder="Удобная, универсальная белая футболка из 100% органического хлопка."
@@ -275,6 +275,7 @@ export default function AddClothingItem()
 					<Button
 						type="submit"
 						disabled={isUploading}
+						className="w-full"
 					>
 						{isUploading && <Loader2 className="mr-2 h-4 w-4 animate-spin"/>}
 						{isUploading ? "Загрузка..." : "Добавить товар"}

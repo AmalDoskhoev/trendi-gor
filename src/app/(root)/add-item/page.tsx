@@ -275,6 +275,7 @@ export default function AddClothingItem()
 					<Button
 						type="submit"
 						disabled={isUploading}
+						className="w-full sm:w-auto"
 					>
 						{isUploading && <Loader2 className="mr-2 h-4 w-4 animate-spin"/>}
 						{isUploading ? "Загрузка..." : "Добавить товар"}

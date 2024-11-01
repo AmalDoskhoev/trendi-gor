@@ -3,7 +3,7 @@
 import {useState} from "react"
 import {Card, CardContent, CardFooter, CardHeader, CardTitle, Button, Slider, Checkbox} from "@/shared/ui"
 
-export function Catalog()
+export default function Catalog()
 {
 	const [searchTerm, setSearchTerm] = useState("")
 	const [priceRange, setPriceRange] = useState([0, 10000])
@@ -38,36 +38,36 @@ export function Catalog()
 			id: 1,
 			name: "Классическая белая футболка",
 			price: 1999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "T-Shirts"
 		},
 		{
 			id: 2,
 			name: "Джинсы из денима",
 			price: 4999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "Jeans"
 		},
 		{
 			id: 3,
 			name: "Кожаная куртка",
 			price: 9999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "Jackets"
 		},
 		{
 			id: 4,
 			name: "Летнее платье",
 			price: 3999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "Dresses"
 		},
-		{id: 5, name: "Кроссовки", price: 5999.99, image: "/placeholder.svg?height=200&width=200", category: "Shoes"},
+		{id: 5, name: "Кроссовки", price: 5999.99, image: "https://placehold.co/200x200", category: "Shoes"},
 		{
 			id: 6,
 			name: "Шерстяной свитер",
 			price: 6999.99,
-			image: "/placeholder.svg?height=200&width=200",
+			image: "https://placehold.co/200x200",
 			category: "T-Shirts"
 		},
 	]
