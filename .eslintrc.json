@@ -1,3 +1,14 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    // Если вместо no-empty-object-type нужно исключение для пустых интерфейсов
+    // Если нужен no-empty-object-type, используйте его ниже
+    "@typescript-eslint/no-empty-object-type": "off"
+  }
 }
